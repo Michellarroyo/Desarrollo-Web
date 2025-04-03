@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png" type="image/png">
+    <title>Contacto</title>
+
+</head>
+
+<body>
+
+    <!-- Header superior -->
+    <div class="header-top" style="font-weight: bold">
+        <p style="font-size: 12px;  margin-left: 10px; margin-top: 8px;">Tel: (604)7862396 | Email:
+            cintia@correo.unicordoba.edu.co</p>
+        <a href="" style="font-size: 12px;  margin-left: 530px; margin-top: 6px">Aspirante</a>
+        <a href="" style="font-size: 12px;  margin-left: 10px; margin-top: 6px;">Estudiante</a>
+        <a href="" style="font-size: 12px;  margin-left: 10px; margin-top: 6px;">Egresado</a>
+        <a href="" style="font-size: 12px;  margin-left: 10px; margin-top: 6px;">Administrativo</a>
+        <a href="" style="font-size: 12px;  margin-left: 10px; margin-top: 6px;">Profesor</a>
+
+    </div>
+
+    <!-- Barra de navegación -->
+    <div class="header-nav">
+        <img src="logo.jpeg" alt="Logo de la universidad" width="135" height="40">
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="whoare.html">Quiénes Somos</a>
+            <a href="questions.html">Preguntas Frecuentes</a>
+            <a href="services.html">Servicios TIC</a>
+            <a href="contac.html">Contacto</a>
+        </nav>
+    </div>
+    <br><br><br><br><br><br>
+
+    <div class="container2">
+        <div class="text-column">
+            <p style="font-size: 70px; font-weight: bold; margin-top: 50px;">Contacto</p>
+            <p>HORARIO DE ATENCIÓN</p>
+            <p style="font-weight: bold;">Lunes a Viernes</p>
+            <p style="font-weight: bold;">7:00am - 1:00pm</p>
+            <p style="font-weight: bold;">2:00pm - 4:00pm</p>
+
+            <br>
+            <p>DIRECCIÓN</p>
+            <p style="font-weight: bold;">Carrera 6# 77 - 305</p>
+            <p style="font-weight: bold;">Edificio Administrativo</p>
+        </div>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3942.9485288403002!2d-75.86527234246239!3d8.790906285495348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e5a2f0643441df5%3A0x5d860a34ad5a86ad!2sEdificio%20Administrativo!5e0!3m2!1ses!2sco!4v1743313161504!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+
+        <!-- Sección Mesa de Ayuda -->
+        <div class="row">
+            <div class="cell help-section" style="background-color: white;">
+                <h2 style="font-size: 50px;">MESA DE AYUDA</h2><br>
+                <p style="width: 60%;">A través de nuestra mesa de ayuda, realiza tus solicitudes, restablecimiento de usuario, importación y
+                    creación de cursos virtuales, certificados digitales, salas de videoconferencia RENATA.</p>
+                <div class="buttons" style="width: 50%; margin-left: 300px;"  >
+                  <a href="" style="width: 150px;" ><button style="background-color: green; width: 100%; margin: 0 auto; height: 58px;">ABRIR TICKET</button></a>
+                  <a href="" style="width: 150px;"><button style="width: 100%; margin: 0 auto;">ESTADO DE TICKET</button></a>  
+                </div>
+            </div>
+        </div>
+
+
+    <div class="row">
+        <div class="cell footer">
+            <p style="padding-bottom: 10px;padding-top: 25px;margin: 0 auto;width: 170vh;">Carrera 6 No. 77- 305
+                Montería - Córdoba, Colombia | Código Postal: 230002 | | Nit: 891080031-3 |
+                contacto@correo.unicordoba.edu.co La Universidad de Córdoba, es una Institución de educación superior
+                sujeta a inspección y vigilancia por el Ministerio de Educación Nacional. Todos los derechos reservados
+                • Colombia - Suramérica • ​​Copyright © 2023​</p>
+        </div>
+    </div>
+
+
+    <script>
+
+
+        window.addEventListener("scroll", function () {
+            let headerTop = document.querySelector(".header-top");
+            let headerNav = document.querySelector(".header-nav");
+
+            if (window.scrollY > 50) { // Cuando el scroll baje más de 50px
+                headerTop.classList.add("shrink");
+                headerNav.classList.add("shrink");
+            } else {
+                headerTop.classList.remove("shrink");
+                headerNav.classList.remove("shrink");
+            }
+        });
+
+    </script>
+</body>
+
+</html>
